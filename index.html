@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre Apellido</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="#inicio" aria-label="Ir a la sección de inicio">
+            <img src="img/logo-eidos.png" alt="Logo de Eidos" class="logo">
+        </a>
+        
+        <nav>
+            <ul id="menu">
+                <li class="menu-item">
+                    <a href="#inicio" class="active">Inicio</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <figure class="presentacion-img">
+                <img src="http://placekitten.com/400/400" alt="Jus">
+            </figure>
+            <article class="presentacion">
+                <h1>Hola! Soy Jus</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui quae dignissimos voluptate, atque quos consequatur ut fuga voluptatem quia quam repellendus odio molestias ea? Eius reprehenderit, voluptatum et sapiente nulla sit tenetur hic adipisci doloribus eveniet provident eos dolor unde atque iste delectus ipsam voluptate cum sed quia consectetur assumenda!</p>
+    
+                <!-- Destacar que es un enlace y no un boton para que funcione -->
+                <!-- Cargar archivo pdf en carpeta y vincular aqui -->
+                <a href="#" aria-label="Descargar cv" class="btn">Descargar mi CV</a>
+            </article>
+        </section>
+
+        <section id="contacto">
+            <article class="hablemos">
+                <h2>Hablemos!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facere officia, natus impedit eos temporibus enim amet vel doloribus iste doloremque, voluptatem minima exercitationem corporis officiis dignissimos quos quia qui?</p>
+            </article>
+
+            <ul id="contact-links">
+                <li>
+                    <a href="mailto:tumail@ejemplo.com" target="_blank" aria-label="Enviar mail">
+                        <img src="img/mail.png" class="icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/" target="_blank" aria-label="Ir al perfil de github">
+                        <img src="img/github.png" class="icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com//" target="_blank" aria-label="Ir al perfil de linkedin">
+                        <img src="img/linkedin.png" class="icon">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <small>Código Latam</small>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
